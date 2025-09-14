@@ -42,25 +42,25 @@ The app allows users to **add, edit, and delete tasks**, demonstrating state man
 ```bash
 git clone git@github.com:AmjadUthman-01011/ToDo.git
 cd ToDo
-
+```
 2. **Install Dependencies**
 ```bash
 npm install
 # or
 yarn install
-
+```
 3. **Start the development server**
 ```bash
 npm run dev
-
+```
 The app should open in your browser at http://localhost:3000
 
 4. **Build for production**
-
+```bash
 npm run build
 # or
 yarn build
-
+```
 5. **Usage**
 
 Add a Task: Type a task in the input box and press Enter or click Add.
