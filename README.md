@@ -53,7 +53,7 @@ yarn install
 ```bash
 npm run dev
 ```
-The app should open in your browser at http://localhost:3000
+The app should open in your browser at http://localhost:5173/)
 
 4. **Build for production**
 ```bash
