@@ -1,0 +1,119 @@
+/* Global app styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+  border: black 1px solid;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  flex: 70%;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.task-list{
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  list-style: none  ;
+}
+
+.task-list li {
+  width: 100%;
+  background: #e3e3e3;
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit-input {
+  flex: 1;
+  padding: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.list-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+}
+
+.list-delete-btn {
+  background: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.list-delete-btn:hover {
+  background: #ff1a1a;
+} 
+
+.list-edit-btn {
+  background: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 2px;
+} 
+
+.list-edit-btn:hover {
+  background: #45a049;
+}
+
+.add-task-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.add-task-input {
+  flex: 1;
+  padding: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.add-task-btn {
+  background: #008CBA;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */  
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+
